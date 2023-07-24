@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="javascript.js" defer></script>
+<h1 class="title">Etch-A-Sketch</h1>
+<div class="screenContainer">
+    <div class="container">
+        <div class="redCasing">
+            <div class="screen">
+
+            </div>
+        </div>
+    </div>
+    <div class="rightBox">
+        <h2>Sketch Controls</h2>
+        <div class="controlContainer">
+            <div class="controlBox">
+                <div class="buttonRow">
+                    <button class="black" onclick="setColor('black')">Black</button>
+                    <button class="eraser" onclick="setColor('white')">Eraser</button>
+                    <button class="random" onclick="setColor('random')">Random Color</button>
+                </div>
+                <div class="sizeRow">
+                    <button class="sixteen">16x16</button>
+                    <button class="thirtytwo">32x32</button>
+                    <button class="sixtyfour">64x64</button>
+                </div>
+                <div class="reset">
+                    <button class="resetBoard" onclick="resetBoard()">Reset Board</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
